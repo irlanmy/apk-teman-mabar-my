@@ -33,7 +33,7 @@ body {
 
 .container .card img {
   width: 150px;
-  height: 135px;
+  height: 140px;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -130,7 +130,7 @@ footer ul .menu {
 }
 
 footer ul .menu .menu-area {
-  padding: 10px 25px;
+  padding: 10px 35px;
   box-sizing: border-box;
 }
 
