@@ -109,11 +109,14 @@ body {
 
 footer {
   position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   left: 0;
   bottom: 0;
   background-color: whitesmoke;
   width: 100%;
-  height: 60px;
+  height: 75px;
   z-index: 23;
 }
 
@@ -129,14 +132,13 @@ footer ul .menu {
 }
 
 footer ul .menu .menu-area {
-  /* padding: 10px 35px; */
+  padding: 10px 35px;
   box-sizing: border-box;
 }
 
 footer ul .menu .menu-area li {
   text-align: center;
   cursor: pointer;
-  padding: 15px 40px;
   box-sizing: border-box;
 }
 
