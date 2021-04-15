@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  outline: none;
 }
 
 html {
@@ -15,6 +16,14 @@ body {
   background-color: whitesmoke;
 }
 
+nav {
+  display: none;
+}
+
+main section {
+  display: none;
+}
+
 /* design untuk mobile style */
 .container {
   background-color: whitesmoke;
@@ -25,15 +34,16 @@ body {
 .container .card {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 80%;
   height: 150px;
   padding: 15px;
+  margin: auto;
   box-sizing: border-box;
   margin-bottom: 15px;
 }
 
 .container .card img {
-  width: 150px;
+  width: 95px;
   height: 140px;
   object-fit: cover;
   border-radius: 10px;
@@ -59,12 +69,13 @@ body {
   display: flex;
   justify-content: space-between;
   font-size: 13px;
-  width: 18%;
+  width: 65px;
 }
 
 .container .card .content .content-top .star-top-right i {
   color: #7c3aed;
   font-size: 12px;
+  transform: translateX(2px);
 }
 
 .container .card .content .content-top .star-top-right h5 {
@@ -150,8 +161,4 @@ footer ul .menu .menu-area li p {
   margin-top: 5px;
   color: #9ca3af;
   font-size: 10px;
-}
-
-/* design untuk desktop style */
-@media screen and (min-width: 768px) {
 }
